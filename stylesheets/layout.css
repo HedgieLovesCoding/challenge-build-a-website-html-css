@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: yellow;
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 0%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: yellow;
+    border: none;
+    width: 20vw;
+    height: 76vh;
+    position: absolute;
+    top: 12vh;
+    bottom: auto;
+    left: 0%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+article {
+    background-color: yellow;
+    width: 56vw;
+    height: 76vh;
+    position: absolute;
+    top: 12vh;
+    left: auto;
+    right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+ads {
+    background-color: yellow;
+    width: 20vw;
+    height: 76vh;
+    position: absolute;
+    top: 12vh;
+    right: 0%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+footer {
+    background-color: yellow;
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 0%;
+    box-sizing: border-box;
+    padding: 20px;
+}

@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    height: 71px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    color: whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#links p {
+    color: whitesmoke;
+    display: inline-block;
+    text-align: end;
+    position: relative;
+    right: 17px;
+    padding: 20px;
+}
+
+#links p:hover {
+    color: aqua;
+}
+
+#pp {
+    background-color: rgb(161, 232, 255);
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-stretch:condensed;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 991px;
+    padding: 10px;
+}
+
+#owl {
+    box-sizing: border-box;
+    width: 291px;
+    border-radius: 50%;
+}
+
+#pp p {
+    display: inline-block;
+    padding-top: 0px;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    font-family: 'PT Sans';
+}
+
+.yellow {
+    background-color: yellow;
+    height: 34.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+p {
+    box-sizing: border-box;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: rgb(222, 253, 182);
+    height: 34.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+}

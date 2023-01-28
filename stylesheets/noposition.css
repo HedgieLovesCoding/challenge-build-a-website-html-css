@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: crimson;
+    width: 100vw;
+    height: 20vh;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    background-color: aquamarine;
+    width: 40vw;
+    height: 30vh;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: block;
+}
+
+nav {
+    background-color: bisque;
+    width: 60vw;
+    height: 30vh;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: block;
+}
+
+footer {
+    background-color: crimson;
+    width: 100vw;
+    height: 20vh;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+}
